@@ -17,7 +17,7 @@ if False:
         contents = "Hello, how are you ?",
     )
 
-chat = client.chats.create(model="gemini-2.5-flash")
+chat = client.chats.create(model="gemini-2.5-flash", )
 
 response = chat.send_message("I have 2 dogs in my house.")
 print(response.text)
